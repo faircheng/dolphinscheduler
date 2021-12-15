@@ -37,10 +37,10 @@ import lombok.Getter;
 
 @Getter
 public final class TenantPage extends NavBarPage implements SecurityPage.Tab {
-    @FindBy(id = "button-create-tenant")
+    @FindBy(id = "btn-create-tenant")
     private WebElement buttonCreateTenant;
 
-    @FindBy(className = "rows-tenant")
+    @FindBy(className = "items")
     private List<WebElement> tenantList;
 
     @FindBys({
@@ -105,7 +105,7 @@ public final class TenantPage extends NavBarPage implements SecurityPage.Tab {
         @FindBy(id = "btn-submit")
         private WebElement buttonSubmit;
 
-        @FindBy(id = "button-cancel")
+        @FindBy(id = "btn-cancel")
         private WebElement buttonCancel;
     }
 }

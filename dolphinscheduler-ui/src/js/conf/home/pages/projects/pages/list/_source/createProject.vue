@@ -16,7 +16,7 @@
  */
 <template>
   <m-popover ref="popover" :nameText="item ? $t('Edit') : $t('Create Project')" :ok-text="item ? $t('Edit') : $t('Submit')"
-           @close="_close" @ok="_ok" ok-id="btn-confirm">
+           @close="_close" @ok="_ok" ok-id="btn-submit">
     <template slot="content">
       <div class="projects-create-model">
         <m-list-box-f>

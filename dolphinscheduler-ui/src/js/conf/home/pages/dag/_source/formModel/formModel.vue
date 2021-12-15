@@ -443,7 +443,7 @@
           :loading="spinnerLoading"
           @click="ok()"
           :disabled="isDetails"
-          id="btn-confirm"
+          id="btn-submit"
           >{{ spinnerLoading ? $t("Loading...") : $t("Confirm") }}
         </el-button>
       </div>

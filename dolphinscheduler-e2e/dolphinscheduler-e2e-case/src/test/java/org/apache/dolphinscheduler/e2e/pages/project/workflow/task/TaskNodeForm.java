@@ -36,7 +36,7 @@ import java.util.stream.Stream;
 public abstract class TaskNodeForm {
     @FindBy(id = "input-node-name")
     private WebElement inputNodeName;
-    @FindBy(id = "btn-confirm")
+    @FindBy(id = "btn-submit")
     private WebElement buttonSubmit;
     @FindBys({
         @FindBy(className = "input-param-key"),
